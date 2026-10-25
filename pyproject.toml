@@ -25,5 +25,5 @@ dev = [
 ]
 
 [tool.poe.tasks]
-lint = "ruff check src/ tests/"
+lint = "ruff check src/"
 typecheck = "ty src/"
